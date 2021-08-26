@@ -3,8 +3,12 @@
     <div class="w3-animate-bottom">
       <h1 class="w3-container w3-center">{{ msg }}</h1>
       <p class="w3-sans-serif w3-text-blue">
-        This App also uses w3schools styles for layouts instead of the
-        traditional Material-UI or TailWind Css
+        This App also uses
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3schools</a
+        >
+        styles for layouts instead of the traditional Material-UI or TailWind
+        Css
       </p>
     </div>
     <br /><br />

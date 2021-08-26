@@ -9,6 +9,13 @@
         <router-link to="/services" class="w3-bar-item w3-button"
           >Services</router-link
         >
+        <a
+          class="w3-bar-item w3-button"
+          target="_blank"
+          href="https://github.com/StephenBrooks220413/vueapp-w3-class.git"
+        >
+          Repository
+        </a>
         <div class="w3-dropdown-hover">
           <button class="w3-button">Dropdown</button>
           <div class="w3-dropdown-content w3-card-4">
@@ -19,6 +26,13 @@
             <router-link to="/services" class="w3-bar-item w3-button"
               >Services</router-link
             >
+            <a
+              class="w3-bar-item w3-button"
+              target="_blank"
+              href="https://github.com/StephenBrooks220413/vueapp-w3-class.git"
+            >
+              Repository
+            </a>
           </div>
         </div>
       </div>
@@ -35,6 +49,13 @@
             <router-link to="/services" class="w3-bar-item w3-button"
               >Services</router-link
             >
+            <a
+              class="w3-bar-item w3-button"
+              target="_blank"
+              href="https://github.com/StephenBrooks220413/vueapp-w3-class.git"
+            >
+              Repository
+            </a>
           </div>
         </div>
       </div>
