@@ -1,0 +1,48 @@
+.max-content {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 651px){
+    .max-content {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 551px){
+    .max-content {
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 451px){
+    .max-content {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 351px){
+    .max-content {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer {
+    margin-top: 50px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}

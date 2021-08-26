@@ -1,0 +1,20 @@
+.nav1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav2 {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .nav1 {
+      display: none;
+    }
+    .nav2 {
+      display: block;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+}

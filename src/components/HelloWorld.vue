@@ -1,128 +1,61 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
-          target="_blank"
-          rel="noopener"
-          >pwa</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
-          target="_blank"
-          rel="noopener"
-          >router</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex"
-          target="_blank"
-          rel="noopener"
-          >vuex</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-mocha"
-          target="_blank"
-          rel="noopener"
-          >unit-mocha</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
-          target="_blank"
-          rel="noopener"
-          >typescript</a
-        >
-      </li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li>
-        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-          >Forum</a
-        >
-      </li>
-      <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-          >Community Chat</a
-        >
-      </li>
-      <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-          >Twitter</a
-        >
-      </li>
-      <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
-      </li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-          >vue-router</a
-        >
-      </li>
-      <li>
-        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-          >vue-devtools</a
-        >
-      </li>
-      <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-          >vue-loader</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-          rel="noopener"
-          >awesome-vue</a
-        >
-      </li>
-    </ul>
+  <div class="w3-container">
+    <div class="w3-animate-bottom">
+      <h1 class="w3-container w3-center">{{ msg }}</h1>
+      <p class="w3-sans-serif w3-text-blue">
+        This App also uses w3schools styles for layouts instead of the
+        traditional Material-UI or TailWind Css
+      </p>
+    </div>
+    <br /><br />
+    <div class="row mt-5 mb-5">
+      <div class="col-md m t-5">
+        <img
+          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+      <div class="col-md mt-5">
+        <h1 class="display-4">Title</h1>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae iste
+        repellendus cum adipisci reiciendis animi ea alias saepe dolor, dolore
+        dolorem aliquid recusandae doloremque vel quia consectetur sit a dicta?
+        <br />
+        <button class="btn btn-outline-dark btn-lg">MORE INFO</button>
+      </div>
+    </div>
+    <br /><br />
+    <div class="max-content">
+      <form class="w3-container">
+        <label class="w3-text-blackblue"><b>First & Last Name</b></label>
+        <input class="w3-input w3-border" type="text" />
+
+        <label class="w3-text-black"><b>Your E-Mail</b></label>
+        <input class="w3-input w3-border" type="text" />
+        <br />
+        <button class="w3-btn w3-black">Register</button>
+      </form>
+    </div>
+    <br /><br />
+    <div class="row mt-5 mb-5">
+      <div class="col-md mt-5">
+        <h1 class="display-4">Title</h1>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae iste
+        repellendus cum adipisci reiciendis animi ea alias saepe dolor, dolore
+        dolorem aliquid recusandae doloremque vel quia consectetur sit a dicta?
+        <br />
+        <button class="btn btn-dark btn-lg">MORE INFO</button>
+      </div>
+      <div class="col-md m t-5">
+        <br />
+        <img
+          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
   </div>
 </template>
 
