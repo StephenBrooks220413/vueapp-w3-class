@@ -1,26 +1,65 @@
 <template>
   <div class="w3-container">
-    <div class="w3-animate-bottom">
+    <div class="w3-animate-zoom">
       <h1 class="w3-container w3-center">{{ msg }}</h1>
       <p class="w3-sans-serif w3-text-blue">
         This App also uses
         <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
           >w3schools</a
         >
+        and
+        <a href="https://mdbootstrap.com/docs/standard/" target="_blank"
+          >MDB5</a
+        >
         styles for layouts instead of the traditional Material-UI or TailWind
         Css
       </p>
     </div>
     <br /><br />
+    <div class="w3-container">
+      <div class="row">
+        <div class="col-md hover-shadow">
+          <br />
+          <i class="fas icon fa-headset"></i>
+          <p class="lead">Ongoing Support For Our Members</p>
+        </div>
+        <div class="col-md hover-shadow">
+          <br />
+          <i class="far icon fa-file-code"></i>
+          <p class="lead">Best Code Practices In Our Apps</p>
+        </div>
+        <div class="col-md hover-shadow">
+          <br />
+          <i class="fab icon fa-internet-explorer"></i>
+          <p class="lead">Generated Site Maps for Best SEO</p>
+        </div>
+        <div class="col-md hover-shadow">
+          <br />
+          <i class="fab icon fa-vuejs"></i>
+          <p class="lead">Light & Fast JavaScript Framework</p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
     <div class="row mt-5 mb-5">
-      <div class="col-md m t-5">
+      <div
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="slide-in-left"
+        class="col-md m t-5">
         <img
           src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
           class="img-fluid"
           alt=""
         />
       </div>
-      <div class="col-md mt-5">
+      <div
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="slide-in-right"
+        class="col-md mt-5">
         <h1 class="display-4">Title</h1>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae iste
         repellendus cum adipisci reiciendis animi ea alias saepe dolor, dolore
@@ -31,31 +70,42 @@
     </div>
     <br /><br />
     <div class="max-content">
-      <form class="w3-container">
+      <form name="subsrcibe" netlify class="w3-container text-center">
+        <h1 class="display-4">Subscribe</h1>
         <label class="w3-text-blackblue"><b>First & Last Name</b></label>
-        <input class="w3-input w3-border" type="text" />
+        <input name="name" class="w3-input w3-border" type="text" />
 
         <label class="w3-text-black"><b>Your E-Mail</b></label>
-        <input class="w3-input w3-border" type="text" />
+        <input name="email" class="w3-input w3-border" type="text" />
         <br />
-        <button class="w3-btn w3-black">Register</button>
+        <button type="submit" class="w3-btn w3-black">Register</button>
       </form>
     </div>
-    <br /><br />
+    <br />
     <div class="row mt-5 mb-5">
-      <div class="col-md mt-5">
+      <div
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="slide-in-left"
+        class="col-md mt-5">
         <h1 class="display-4">Title</h1>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae iste
         repellendus cum adipisci reiciendis animi ea alias saepe dolor, dolore
         dolorem aliquid recusandae doloremque vel quia consectetur sit a dicta?
         <br />
-        <button class="btn btn-dark btn-lg">MORE INFO</button>
+        <button class="btn btn-outline-dark btn-lg">MORE INFO</button>
       </div>
-      <div class="col-md m t-5">
+      <div
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="slide-in-left"
+        class="col-md m t-5">
         <br />
         <img
           src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-          class="img-fluid"
+          class="img-fluid w3-animate-right"
           alt=""
         />
       </div>
@@ -91,5 +141,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.icon {
+  font-size: 2.7em;
 }
 </style>

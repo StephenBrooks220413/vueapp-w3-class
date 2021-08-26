@@ -6,6 +6,9 @@
         <router-link to="/about" class="w3-bar-item w3-button"
           >About</router-link
         >
+        <router-link to="/contact" class="w3-bar-item w3-button"
+          >Contact</router-link
+        >
         <router-link to="/services" class="w3-bar-item w3-button"
           >Services</router-link
         >
@@ -22,6 +25,9 @@
             <router-link to="/" class="w3-bar-item w3-button">Home</router-link>
             <router-link to="/about" class="w3-bar-item w3-button"
               >About</router-link
+            >
+            <router-link to="/contact" class="w3-bar-item w3-button"
+              >Contact</router-link
             >
             <router-link to="/services" class="w3-bar-item w3-button"
               >Services</router-link
@@ -45,6 +51,9 @@
             <router-link to="/" class="w3-bar-item w3-button">Home</router-link>
             <router-link to="/about" class="w3-bar-item w3-button"
               >About</router-link
+            >
+            <router-link to="/contact" class="w3-bar-item w3-button"
+              >Contact</router-link
             >
             <router-link to="/services" class="w3-bar-item w3-button"
               >Services</router-link
